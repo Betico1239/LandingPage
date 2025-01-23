@@ -4,8 +4,9 @@ import Button from "../components/Button.jsx";
 const Hero = () => {
   return (
     <section
-      className="relative mb-10 pt-60 max-lg:pt-52 max-lg:pb-36
-       max-md:pt-36 max-md:pb-32"
+      id="hero"
+      className="relative mb-10 pt-60 max-lg:pt-52 max-lg:pb-36 max-md:pt-36
+      max-md:pb-32"
     >
       <Element name="Hero">
         <div className="container">
